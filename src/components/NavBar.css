@@ -1,0 +1,15 @@
+.nav {
+	height: 71px;
+	box-shadow: 0px 1px 8px #888888;
+	display: flex;
+	align-items: center;
+}
+
+.nav .logo {
+	cursor: 'pointer';
+	height: 80%;
+}
+
+.menu {
+	flex: 0.48;
+}
