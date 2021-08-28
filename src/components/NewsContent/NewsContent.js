@@ -4,7 +4,6 @@ import React from 'react'
 import NewsCard from '../NewsCard/NewsCard';
 
 const NewsContent = ({ newsArray, newsResults, loadMore, setLoadMore }) => {
-    console.log(loadMore, '<=', newsResults, ':>> ', loadMore <= newsResults);
     return (
         <Container maxWidth="md">
             <div className="content">
